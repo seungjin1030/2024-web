@@ -1,0 +1,515 @@
+@font-face {
+  font-family: "SUIT-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "JeonjuCraftGoR";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/JeonjuCraftGoR.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+.frame-9,
+.frame-9 * {
+  box-sizing: border-box;
+}
+.frame-9 {
+  background: #ffffff;
+  height: 1080px;
+  position: relative;
+  overflow: hidden;
+}
+.title {
+  position: absolute;
+  margin-top: 1px;
+  margin-left: 76px;
+  color: #006bca;
+  font-family: SUIT;
+  font-size: 110px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -5.5px;
+}
+.title1 {
+  margin-top: 19px;
+  margin-left: 400px;
+  position: absolute;
+  color: #000;
+  font-family: SUIT;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.64px;
+}
+.whitebox {
+  background: #ffffff;
+  border-radius: 0px 150px 0px 0px;
+  opacity: 0.72;
+  width: 520px;
+  height: 268px;
+  position: absolute;
+  left: 27px;
+  top: 812px;
+}
+.circle1 {
+  background: #ddefff;
+  border-radius: 359.971px;
+  width: 359.971px;
+  height: 342.333px;
+  position: absolute;
+  right: 1554px;
+  left: 0.1px;
+  bottom: 238px;
+  top: 494px;
+  transform-origin: 0 0;
+  transform: rotate(-0.988deg) scale(1, 1);
+}
+.box1 {
+  background: #ddefff;
+  border-radius: 0px 40px 98px 0px;
+  width: 203.05px;
+  height: 1099.64px;
+  position: absolute;
+  left: -71px;
+  top: 141px;
+}
+.circle2 {
+  background: #edf6ff;
+  border-radius: 344.684px;
+  width: 344.684px;
+  height: 331.967px;
+  position: absolute;
+  right: 1566px;
+  left: 3.9px;
+  bottom: 243px;
+  top: 499px;
+  transform-origin: 0 0;
+  transform: rotate(-0.976deg) scale(1, 1);
+}
+.box2 {
+  background: #edf6ff;
+  border-radius: 0px 40px 98px 0px;
+  width: 196px;
+  height: 1075px;
+  position: absolute;
+  left: -66px;
+  top: 152.32px;
+}
+.circle3 {
+  background: #ddefff;
+  border-radius: 50%;
+  width: 238.185px;
+  height: 238.185px;
+  position: absolute;
+  right: 1618px;
+  left: 59.9px;
+  bottom: 291px;
+  top: 547px;
+  transform-origin: 0 0;
+  transform: rotate(-0.976deg) scale(1, 1);
+}
+.circle4 {
+  background: #bfe1ff;
+  border-radius: 50%;
+  width: 185.891px;
+  height: 185.891px;
+  position: absolute;
+  right: 1644px;
+  left: 86.5px;
+  bottom: 318px;
+  top: 573px;
+  transform-origin: 0 0;
+  transform: rotate(-0.976deg) scale(1, 1);
+}
+.div {
+  color: #0043a6;
+  text-align: left;
+  font-family: "Suit-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  left: 14px;
+  top: 407px;
+}
+.div2 {
+  color: #2e2e2e;
+  text-align: left;
+  font-family: "Suit-Regular", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  position: absolute;
+  left: 36px;
+  top: 474px;
+}
+.div3 {
+  color: #2e2e2e;
+  text-align: left;
+  font-family: "Suit-Regular", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  position: absolute;
+  left: 36px;
+  top: 531px;
+}
+.box3 {
+  background: #ddefff;
+  border-radius: 10px;
+  width: 715.75px;
+  height: 113.61px;
+  position: absolute;
+  left: 1509px;
+  top: -71.53px;
+  filter: blur(0.95px);
+}
+.box4 {
+  background: #edf6ff;
+  border-radius: 10px;
+  width: 710.07px;
+  height: 113.61px;
+  position: absolute;
+  left: 1516.57px;
+  top: -81px;
+}
+.title3 {
+  color: #000000;
+  text-align: left;
+  font-family: SUIT;
+  font-size: 19.882px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.596px;
+  position: absolute;
+  left: 767.03px;
+  top: 90.99px;
+}
+._34-436-680 {
+  color: #0075dd;
+  text-align: left;
+  font-family: JeonjuCraft_Go;
+  font-size: 45.445px;
+  font-style: normal;
+  font-weight: 400;
+  position: absolute;
+  left: 767.03px;
+  top: 124.13px;
+  -webkit-text-stroke: 1px #0075dd;
+}
+.div6 {
+  color: #000000;
+  text-align: left;
+  font-family: JeonjuCraft_Go;
+  font-size: 18.935px;
+  font-style: normal;
+  font-weight: 400;
+  position: absolute;
+  left: 1033.07px;
+  top: 149px;
+}
+.title4 {
+  color: #000000;
+  text-align: left;
+  font-family: SUIT;
+  font-size: 19.882px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.596px;
+  position: absolute;
+  left: 1184.56px;
+  top: 90.99px;
+}
+._25-949-201 {
+  color: #0075dd;
+  text-align: left;
+  font-family: JeonjuCraft_Go;
+  font-size: 45.445px;
+  font-style: normal;
+  font-weight: 400;
+  position: absolute;
+  left: 1184.56px;
+  top: 124.13px;
+  -webkit-text-stroke: 1px #0075dd;
+}
+.div7 {
+  color: #000000;
+  text-align: left;
+  font-family: JeonjuCraft_Go;
+  font-size: 18.935px;
+  font-style: normal;
+  font-weight: 400;
+  position: absolute;
+  left: 1439.24px;
+  top: 149px;
+}
+.title5 {
+  color: #000000;
+  text-align: left;
+  font-family: SUIT;
+  font-size: 19.882px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.596px;
+  position: absolute;
+  left: 1590.72px;
+  top: 90.99px;
+}
+._52 {
+  color: #0075dd;
+  text-align: left;
+  font-family: JeonjuCraft_Go;
+  font-size: 45.445px;
+  font-style: normal;
+  font-weight: 400;
+  position: absolute;
+  left: 1590.72px;
+  top: 124.13px;
+  -webkit-text-stroke: 1px #0075dd;
+}
+.div9 {
+  color: #000000;
+  text-align: left;
+  font-family: JeonjuCraft_Go;
+  font-size: 18.935px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1654.15px;
+  top: 149.69px;
+}
+._847-349 {
+  color: #1490ff;
+  text-align: left;
+  font-family: JeonjuCraft_Go;
+  font-size: 34.084px;
+  font-style: normal;
+  font-weight: 400;
+  position: absolute;
+  left: 1701.49px;
+  top: 133.6px;
+  -webkit-text-stroke: 0.47338226437568665px #1490ff;
+}
+.div8 {
+  color: #000000;
+  text-align: left;
+  font-family: JeonjuCraft_Go;
+  font-size: 18.935px;
+  font-style: normal;
+  font-weight: 400;
+  position: absolute;
+  left: 1847.29px;
+  top: 146.85px;
+}
+.title6 {
+  color: #000000;
+  text-align: left;
+  font-family: SUIT;
+  font-size: 24.616px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.738px;
+  position: absolute;
+  left: 801.12px;
+  top: 234.9px;
+}
+.title7 {
+  color: #000000;
+  text-align: left;
+  font-family: SUIT;
+  font-size: 24.616px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.738px;
+  position: absolute;
+  left: 1439.24px;
+  top: 236.79px;
+}
+.km {
+  color: #000000;
+  text-align: left;
+  font-family: JeonjuCraft_Go;
+  font-size: 13.255px;
+  font-style: normal;
+  font-weight: 400;
+  position: absolute;
+  left: 1734.83px;
+  top: 247.15px;
+}
+.title8 {
+  color: #000000;
+  text-align: left;
+  font-family: SUIT;
+  font-size: 24.616px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.738px;
+  position: absolute;
+  left: 769.12px;
+  top: 783px;
+}
+.km2 {
+  color: #000000;
+  text-align: left;
+  font-family: JeonjuCraft_Go;
+  font-size: 13.255px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.398px;
+  position: absolute;
+  left: 1046px;
+  top: 792px;
+}
+.title9 {
+  color: #000000;
+  text-align: left;
+  font-family: SUIT;
+  font-size: 24.616px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.738px;
+  position: absolute;
+  left: 1159.21px;
+  top: 783px;
+}
+.km3 {
+  color: #000000;
+  text-align: left;
+  font-family: JeonjuCraft_Go;
+  font-size: 13.255px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.398px;
+  position: absolute;
+  left: 1497px;
+  top: 792px;
+}
+.title10 {
+  color: #000000;
+  text-align: left;
+  font-family: SUIT;
+  font-size: 24.616px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.738px;
+  position: absolute;
+  left: 1652.26px;
+  top: 783px;
+}
+.km4 {
+  color: #000000;
+  text-align: left;
+  font-family: JeonjuCraft_Go;
+  font-size: 13.255px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.398px;
+  position: absolute;
+  left: 1814px;
+  top: 792px;
+}
+
+.title11 {
+  color: #000000;
+  text-align: left;
+  font-family: SUIT;
+  font-size: 19.882px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.596px;
+  position: absolute;
+  left: 670px;
+  top: 960px;
+}
+._335-459-843000 {
+  color: #0075dd;
+  text-align: left;
+  font-family: JeonjuCraft_Go;
+  font-size: 45.445px;
+  font-style: normal;
+  font-weight: 400;
+  position: absolute;
+  left: 670.13px;
+  top: 982.58px;
+  -webkit-text-stroke: 1px #0075dd;
+}
+.km5 {
+  color: #000000;
+  text-align: left;
+  font-family: JeonjuCraft_Go;
+  font-size: 18.935px;
+  font-style: normal;
+  font-weight: 400;
+  position: absolute;
+  left: 1057.22px;
+  top: 1008.05px;
+}
+.img-container {
+  position: absolute;
+  left: 590px;
+  top: 68px;
+}
+.img-container1 {
+  position: absolute;
+  left: 580px;
+  top: 77px;
+}
+.img-container2 {
+  position: absolute;
+  left: 851.29px;
+  top: 276.5px;
+}
+.img-container3 {
+  position: absolute;
+  left: 1443.24px;
+  top: 283.18px;
+}
+.img-container4 {
+  position: absolute;
+  left: 747.38px;
+  top: 828.9px;
+}
+.img-container5 {
+  position: absolute;
+  left: 1159.21px;
+  top: 841.3px;
+}
+.img-container6 {
+  position: absolute;
+  left: 1649.42px;
+  top: 820px;
+}
+.img-container7 {
+  position: absolute;
+  left: 479.41px;
+}
+.img-container8 {
+  position: absolute;
+  left: 489.41px;
+}
+.img-container9 {
+  position: absolute;
+  top: 219px;
+}
+.img-container10 {
+  position: absolute;
+  top: 280px;
+}
+.myImg {
+  position: absolute;
+}
